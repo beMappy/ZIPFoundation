@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'XCZIPFoundation'
-  s.version = '0.9.15'
+  s.version = '0.9.15-SPM'
   s.license = 'MIT'
   s.summary = 'Effortless ZIP Handling in Swift'
   s.homepage = 'https://github.com/weichsel/ZIPFoundation'
@@ -10,8 +10,6 @@ Pod::Spec.new do |s|
   s.swift_versions = ['4.0', '4.2', '5.0']
 
   s.ios.deployment_target = '12.0'
-  s.osx.deployment_target = '10.11'
-  s.tvos.deployment_target = '12.0'
 
   s.vendored_frameworks = 'ZIPFoundation.xcframework'
 end
